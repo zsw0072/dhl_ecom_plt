@@ -1,0 +1,10 @@
+# 维度查看：
+# print(df.shape)
+# 数据表基本信息（维度、列名称、数据格式、所占空间等）
+# print(df.info())
+# 每一列数据的格式
+# print(df.dtypes)
+# 空值
+# print(df.isnull())
+# 查看列名称
+# print(df.columns)

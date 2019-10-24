@@ -1,0 +1,51 @@
+sd_dtm,awb_no,orig_ctry,orig_stn,orig_fclty,cleaned_orig_city_name,sd_route_id,dest_ctry,cleaned_del_zip,cleaned_dest_city_name,shacct_no,billing_acct_no,ship_ref,piece_no,eShipperCompany,eShipperContact,eShipperAddress1,eShipperAddress2,eShipperAddress3,eShipperZip,eshipperCity,eShipperState,eshipperPhone,eshipperFax,esignName,esiteid,eclientVer,eclientApp,cSales_cd,csegment,csale_route,copen_date,cname,cstation,msales_name,mAcctatt,mchannel,marea,mcluster,mroute_name,mghost,meCOM,mopms,cntOfErr,errMemo,message_create_dtm_ecom,Montime,exemptEFR,cleaned_product_code,billing_acct_no_ctry,ezsite_authorizing extra_charge,PLT
+
+DROP table ecom_base
+SELECT COUNT(*) FROM ecom_base
+SELECT COUNT(*) FROM ecom_base WHERE PLT = 'Y'
+SELECT COUNT(*) FROM ecom_base WHERE billing_acct_no LIKE "60%"
+SELECT COUNT(*) FROM ecom_base WHERE billing_acct_no LIKE "60%" AND PLT = 'Y'
+SELECT COUNT(*) FROM ecom_base_201907 WHERE billing_acct_no LIKE '95%' OR billing_acct_no LIKE '96%';
+SELECT COUNT(*) FROM ecom_base_201907 WHERE billing_acct_no LIKE '95%' OR billing_acct_no LIKE '96%' AND PLT = 'Y';
+SELECT COUNT(*) FROM ecom_base_201908 WHERE esiteid = 'PEK0000009055SPS' OR esiteid = 'DDHLCNESHIPC';
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201908 WHERE esiteid = 'PEK0000009055SPS' OR 'DDHLCNESHIPC' ) WHERE PLT = 'Y';
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE esiteid = 'PEK0000009055SPS' OR esiteid = 'DDHLCNESHIPC') WHERE orig_fclty = 'GZW'
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE esiteid = 'PEK0000009055SPS' OR esiteid = 'DDHLCNESHIPC') WHERE orig_fclty = 'GZW' AND PLT = 'Y'
+SELECT COUNT(*) FROM ecom_base_201907 WHERE cSales_cd = 'GZA'
+SELECT COUNT(*) FROM ecom_base_201907 WHERE cSales_cd = 'GZA' AND PLT = 'Y'
+SELECT COUNT(*) FROM ecom_base_201907 WHERE cSales_cd = 'GZC' or cSales_cd =  'GDA'
+SELECT COUNT(*) from (SELECT * FROM ecom_base_201907 WHERE cSales_cd = 'GZC' or cSales_cd = 'GDA') WHERE PLT = 'Y'
+SELECT COUNT(*) FROM ecom_base_201907 WHERE cSales_cd = 'GHT'
+	OR cSales_cd =  'GPV'
+	OR cSales_cd = 'F12'
+	OR cSales_cd = 'FNP'
+	OR cSales_cd = 'NNK'
+	OR cSales_cd = 'ZQF'
+	OR cSales_cd = 'HAI'
+	OR cSales_cd = 'ZHL'
+	OR cSales_cd = 'L105';
+SELECT COUNT(*) from (SELECT * FROM ecom_base_201907 WHERE cSales_cd = 'GHT'
+	OR cSales_cd =  'GPV'
+	OR cSales_cd = 'F12'
+	OR cSales_cd = 'FNP'
+	OR cSales_cd = 'NNK'
+	OR cSales_cd = 'ZQF'
+	OR cSales_cd = 'HAI'
+	OR cSales_cd = 'ZHL'
+	OR cSales_cd = 'L105') WHERE PLT = 'Y';
+
+
+SELECT COUNT(*) FROM ecom_base_201909 WHERE orig_fclty IS NOT 'GZD';
+SELECT COUNT(*) FROM ecom_base_201909 WHERE orig_fclty IS NOT 'GZD' AND PLT = 'Y';
+SELECT COUNT(*) FROM ecom_base_201909 WHERE orig_fclty IS NOT 'GZD' AND billing_acct_no LIKE '60%';
+SELECT COUNT(*) FROM ecom_base_201909 WHERE orig_fclty IS NOT 'GZD' AND billing_acct_no LIKE "60%" AND PLT = 'Y';
+SELECT COUNT(*) FROM ecom_base_201907 WHERE billing_acct_no LIKE '95%' OR billing_acct_no LIKE '96%';
+SELECT count(*) FROM (SELECT * FROM ecom_base_201907 WHERE billing_acct_no LIKE '95%' OR billing_acct_no LIKE '96%') WHERE PLT = 'Y';
+
+
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base WHERE eclientApp = 'XMLPI' or eclientApp = 'eCom WayForward' or eclientApp = 'GLOWS') WHERE esiteid != 'DDHLCNESHIPC'; 3100022
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base WHERE eclientApp = 'XMLPI' or eclientApp = 'eCom WayForward' or eclientApp = 'GLOWS') WHERE esiteid != 'DDHLCNESHIPC' and PLT = 'Y'; 264129
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE eclientApp = 'XMLPI' or eclientApp = 'eCom WayForward' or eclientApp = 'GLOWS') WHERE esiteid != 'DDHLCNESHIPC' AND orig_fclty = 'GZW';
+SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE eclientApp = 'XMLPI' or eclientApp = 'eCom WayForward' or eclientApp = 'GLOWS') WHERE esiteid != 'DDHLCNESHIPC' AND PLT = 'Y' AND orig_fclty = 'GZW';
+
+'All PLT', '2019(所有)', '60(所有)', '96(所有)', '2019(除领添)', '60(除领添)', '96(除领添)', 'OPS', 'GZW', 'GZH', 'GZP', 'GZE', 'GZS', 'FON', 'FOS', 'ZHQ', 'NNG', 'ZHA', 'HKE', 'GZA', 'GZB', 'GZC+GDA', 'GZD', 'GZF', 'GWC', 'GWE', 'GWF', 'GWG', 'GWH', 'GEB', 'GEC', 'GED', 'GEE', 'GEF', 'GPO', 'GPB', 'GPC', 'GPD', 'GPE', 'GHB', 'GHC', 'GHD', 'GHE', 'FNE', 'FNF', 'FNH', 'FNK', 'ZQC', 'NNB', 'FSA', 'FSB', 'FSC', 'FSD', 'HAC', 'ZHC', 'GEO', 'GEN+GWN', 'GWO', 'GWQ', 'GZV+GWS', 'GZY', 'FNM', 'FSY+FNN', 'FSV', 'GPU', 'GHP', 'GHO+GPR', 'GHT+GPV+F12+FNP+NNK+ZQF+HAI+ZHL', 'GWT+GZU+GET'
