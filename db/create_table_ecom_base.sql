@@ -1,6 +1,6 @@
 CREATE TABLE ecom_base_201909(
     sd_dtm  CHAR(30),
-    awb_no  CHAR(15),
+    awb_no  CHAR(20),
     orig_ctry   CHAR(10),
     orig_stn    CHAR(10),
     orig_fclty  CHAR(10),
@@ -9,8 +9,8 @@ CREATE TABLE ecom_base_201909(
     dest_ctry   CHAR(10),
     cleaned_del_zip CHAR(10),
     cleaned_dest_city_name  CHAR(60),
-    shacct_no   CHAR(10),
-    billing_acct_no CHAR(10),
+    shacct_no   CHAR(20),
+    billing_acct_no INT,
     ship_ref    CHAR(60),
     piece_no    CHAR(10),
     eShipperCompany CHAR(60),
