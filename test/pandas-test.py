@@ -11,8 +11,8 @@ df = pd.read_sql(sql, conn)
 all = df.count()
 plt = df.loc[df['PLT'] == 'Y'].count()
 all_plt = plt / all
-all_plt.to_csv("hello.csv")
-# print(plt)
+print(all_plt.tolist()[0])
+
 conn.close()
 
 # df.to_excel("/Users/apple/Documents/dhl_ecom_data/test.xlsx", sheet_name='hello')
