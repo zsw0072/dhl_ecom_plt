@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad694872-7720-4780-8b20-5a86e8d4b426" name="Default Changelist" comment="1.1" />
+    <list default="true" id="ad694872-7720-4780-8b20-5a86e8d4b426" name="Default Changelist" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/db/dhl.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plt_report/ecom_plt_201909.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hello.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test/hello.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pandas-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pandas-test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +45,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/pandas-test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="198">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/hello.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -178,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1600" />
     <option name="height" value="870" />
   </component>
@@ -200,7 +214,7 @@
             <path>
               <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
               <item name="dhl_ecom_plt" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="plt_report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
@@ -380,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571893311822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1">
+      <created>1571893635917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571893635917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -393,17 +414,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="870" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1978233" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19581749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" weight="0.19459888" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Job Explorer" order="4" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33152175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33111703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39755768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +432,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32802126" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32180852" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32802126" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hello.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="18">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
       <provider editor-type-id="LargeFileEditor">
@@ -623,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pandas-test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
