@@ -49,3 +49,13 @@ SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE eclientApp = 'XMLPI' 
 SELECT COUNT(*) FROM (SELECT * FROM ecom_base_201907 WHERE eclientApp = 'XMLPI' or eclientApp = 'eCom WayForward' or eclientApp = 'GLOWS') WHERE esiteid != 'DDHLCNESHIPC' AND PLT = 'Y' AND orig_fclty = 'GZW';
 
 'All PLT', '2019(所有)', '60(所有)', '96(所有)', '2019(除领添)', '60(除领添)', '96(除领添)', 'OPS', 'GZW', 'GZH', 'GZP', 'GZE', 'GZS', 'FON', 'FOS', 'ZHQ', 'NNG', 'ZHA', 'HKE', 'GZA', 'GZB', 'GZC+GDA', 'GZD', 'GZF', 'GWC', 'GWE', 'GWF', 'GWG', 'GWH', 'GEB', 'GEC', 'GED', 'GEE', 'GEF', 'GPO', 'GPB', 'GPC', 'GPD', 'GPE', 'GHB', 'GHC', 'GHD', 'GHE', 'FNE', 'FNF', 'FNH', 'FNK', 'ZQC', 'NNB', 'FSA', 'FSB', 'FSC', 'FSD', 'HAC', 'ZHC', 'GEO', 'GEN+GWN', 'GWO', 'GWQ', 'GZV+GWS', 'GZY', 'FNM', 'FSY+FNN', 'FSV', 'GPU', 'GHP', 'GHO+GPR', 'GHT+GPV+F12+FNP+NNK+ZQF+HAI+ZHL', 'GWT+GZU+GET'
+
+郭靖:	GZA+GZB+GZC+GDA+GZD+GZF
+于慧显:	GWC+GWE+GWF+GWG+GWH
+黄懿徽：	GEB+GEC+GED+GEE+GEF
+林煜：	GPO+GPB+GPC+GPD+GPE
+谢琳：	GHB+GHC+GHD+GHE
+郭光澈：	FNE+FNF+FNF+FNH+FNK+ZQC+NNB
+方耀祺（代）:	FSA+FSB+FSC+FSD+HAC+ZHC
+陈欣：	GEO+GEN+GWN+GWO+GWQ+GZV+GWS+GZY+FNM+FSY+FNN+FSV+GPU+GHP+GHO+GPR+GEN+GWN
+黎凯伦:	GWT+GZU+GET+GHT+GPV+F12+FNP+NNK+ZQF+HAI+ZHL

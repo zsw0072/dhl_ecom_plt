@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad694872-7720-4780-8b20-5a86e8d4b426" name="Default Changelist" comment="1.1">
-      <change afterPath="$PROJECT_DIR$/test/str_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ClarAll/CalrAllByPandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecom/ClarAll/CheckEcomPlt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dhl_ecom_plt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dhl_ecom_plt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/create_table_ecom_base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/create_table_ecom_base.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pandas-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pandas-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/name.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pandas-test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pandas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/pandas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/str_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/str_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,59 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CalrAll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecom/DbControl/InsertData.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CheckEcomPlt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/check-test.py">
+        <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CalrAllByPandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/str_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pandas-test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="108">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="38" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -89,19 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>geC</find>
-      <find>gef</find>
-      <find>gpo</find>
-      <find>gpc</find>
-      <find>fsa</find>
-      <find>moji</find>
-      <find>fsd</find>
-      <find>FSV</find>
-      <find>fsv</find>
-      <find>201907</find>
-      <find>ZHQ</find>
-      <find>ecom_base_201907</find>
-      <find>201908</find>
       <find>&quot;+month+&quot;</find>
       <find>_percentage</find>
       <find>_plt</find>
@@ -116,41 +72,54 @@
       <find>eship_ops_plt</find>
       <find>eship_fon_plt</find>
       <find>eship_hke_plt</find>
+      <find>imp_plt_awb_nogzd</find>
+      <find>zha</find>
+      <find>ops</find>
+      <find>zqc</find>
+      <find>gho</find>
       <find>eship_nng_plt</find>
-      <find>contains</find>
-      <find>StringMethods</find>
+      <find>gho_gpr</find>
+      <find>yaoqi</find>
+      <find>+</find>
+      <find>GHD</find>
+      <find>gwe</find>
+      <find>gec</find>
+      <find>gzc</find>
+      <find>gzc_gda_plt</find>
+      <find>林煜</find>
+      <find>方耀祺</find>
     </findStrings>
     <replaceStrings>
-      <replace>moji</replace>
-      <replace>yaying</replace>
-      <replace>gwg</replace>
-      <replace>tba</replace>
-      <replace>gpb</replace>
-      <replace>zqc</replace>
+      <replace>fsc</replace>
       <replace>fsd</replace>
+      <replace>hac</replace>
+      <replace>zhc</replace>
+      <replace>geo</replace>
+      <replace>gen_gwn</replace>
+      <replace>gwo</replace>
+      <replace>gwq</replace>
+      <replace>gzv_gws</replace>
+      <replace>gzy</replace>
+      <replace>fnm</replace>
+      <replace>fsy_fnn</replace>
+      <replace>fsv</replace>
       <replace>gpu</replace>
       <replace>ghp</replace>
-      <replace>siting</replace>
-      <replace>fsb</replace>
-      <replace>201907</replace>
-      <replace>201908</replace>
-      <replace>ecom_base_201908</replace>
-      <replace>ecom_base_&quot;+month+&quot;</replace>
-      <replace>CHAR(100)</replace>
-      <replace>row</replace>
-      <replace>imp_plt_awb</replace>
-      <replace>imp_plt_awb1</replace>
-      <replace>ops_plt_awb</replace>
-      <replace>gzh_plt_awb</replace>
-      <replace>gzp_plt_awb</replace>
-      <replace>gze_plt_awb</replace>
-      <replace>gzs_plt_awb</replace>
-      <replace>fon_plt_awb</replace>
-      <replace>fos_plt_awb</replace>
-      <replace>zhq_plt_awb</replace>
-      <replace>hke_plt_awb</replace>
-      <replace>zha_plt_awb</replace>
+      <replace>gho_gpr</replace>
+      <replace>moji</replace>
       <replace>nng_plt_awb</replace>
+      <replace>haiyan</replace>
+      <replace>austin</replace>
+      <replace>ivy</replace>
+      <replace>louis</replace>
+      <replace>elaine</replace>
+      <replace>colin</replace>
+      <replace>yaoqi</replace>
+      <replace>Elizabeth</replace>
+      <replace>elizabeth</replace>
+      <replace>,</replace>
+      <replace>gwf</replace>
+      <replace>gzc_gda</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -183,35 +152,31 @@
         <option value="$PROJECT_DIR$/ecom/ClarPLT/ClarSLS.py" />
         <option value="$PROJECT_DIR$/ecom/ClarPLT/CalrTotal.py" />
         <option value="$PROJECT_DIR$/ecom/DbControl/CreateTable.py" />
-        <option value="$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql" />
+        <option value="$PROJECT_DIR$/db/create_table_ecom_base.sql" />
+        <option value="$PROJECT_DIR$/ecom/DbControl/InsertData.py" />
         <option value="$PROJECT_DIR$/ecom/ClarAll/CalrTotal.py" />
-        <option value="$PROJECT_DIR$/test/name.txt" />
         <option value="$PROJECT_DIR$/ecom/WriteExcel/writeExcel.py" />
         <option value="$PROJECT_DIR$/test/readXls.py" />
         <option value="$PROJECT_DIR$/test/main.py" />
         <option value="$PROJECT_DIR$/ecom/makeExcel/writeExcel.py" />
         <option value="$PROJECT_DIR$/ecom/ClarAll/CalrAll.py" />
-        <option value="$PROJECT_DIR$/test/pandas.txt" />
-        <option value="$PROJECT_DIR$/ecom/DbControl/InsertData.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test/check-test.py" />
+        <option value="$PROJECT_DIR$/test/name.txt" />
         <option value="$PROJECT_DIR$/test/str_test.py" />
-        <option value="$PROJECT_DIR$/db/create_table_ecom_base.sql" />
         <option value="$PROJECT_DIR$/test/pandas-test.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/test/pandas.txt" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql" />
+        <option value="$PROJECT_DIR$/ecom/ClarAll/CalrAllByPandas.py" />
+        <option value="$PROJECT_DIR$/ecom/ClarAll/checkEcomPlt.py" />
+        <option value="$PROJECT_DIR$/ecom/ClarAll/CheckEcomPlt.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="97" />
-    <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="x" value="-7" />
+    <option name="width" value="761" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="1Qj5TXqM9IMqfL4AmoTFIbS2im8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -220,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,7 +207,18 @@
               <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
               <item name="dhl_ecom_plt" type="462c0819:PsiDirectoryNode" />
               <item name="ecom" type="462c0819:PsiDirectoryNode" />
-              <item name="DbControl" type="462c0819:PsiDirectoryNode" />
+              <item name="ClarAll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhl_ecom_plt" type="462c0819:PsiDirectoryNode" />
+              <item name="ecom" type="462c0819:PsiDirectoryNode" />
+              <item name="makeExcel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhl_ecom_plt" type="462c0819:PsiDirectoryNode" />
+              <item name="plt_report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dhl_ecom_plt" type="b2602c69:ProjectViewProjectNode" />
@@ -252,21 +229,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecom/ClarAll" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\dhl_ecom_plt\ecom\ClarAll" />
       <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ecom.plt/DbControl" />
       <recent name="$PROJECT_DIR$/ecom.plt" />
-      <recent name="$PROJECT_DIR$/ecom.plt/ClarPLT/clarTotal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\dhl_ecom_plt" />
@@ -288,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas-test">
+  <component name="RunManager" selected="Python.CheckEcomPlt">
     <configuration name="CalrAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dhl_ecom_plt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="InsertData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CalrAllByPandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dhl_ecom_plt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,11 +294,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecom/DbControl" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecom/ClarAll" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecom/DbControl/InsertData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecom/ClarAll/CalrAllByPandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CheckEcomPlt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dhl_ecom_plt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecom/ClarAll" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecom/ClarAll/CheckEcomPlt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,34 +370,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="str_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dhl_ecom_plt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/str_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pandas-test" />
+        <item itemvalue="Python.CheckEcomPlt" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.CalrAllByPandas" />
+        <item itemvalue="Python.pandas-test" />
         <item itemvalue="Python.CalrAll" />
-        <item itemvalue="Python.InsertData" />
-        <item itemvalue="Python.str_test" />
       </list>
     </recent_temporary>
   </component>
@@ -442,23 +418,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1280" height="730" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19581749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" weight="0.19459888" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Job Explorer" order="4" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28840125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39655173" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49873257" visible="true" weight="0.32446808" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3962766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32802126" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50126743" side_tool="true" weight="0.33111703" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32180852" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32802126" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -466,23 +443,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25178713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" weight="0.19459888" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Job Explorer" order="4" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46238244" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39655173" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4075235" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32802126" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32180852" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32802126" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -540,14 +517,17 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/xlwt/Column.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/xlwt/Worksheet.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1199943126/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql">
+    <entry file="file://$PROJECT_DIR$/db/create_table_ecom_base.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/writeExcel.py" />
-    <entry file="file://$PROJECT_DIR$/test/name.txt">
+    <entry file="file://$PROJECT_DIR$/ecom/DbControl/InsertData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="566" />
+        <state relative-caret-position="648">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,38 +538,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlrd/sheet.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Workbook.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Style.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Formatting.py" />
-    <entry file="file://$PROJECT_DIR$/ecom/makeExcel/writeExcel.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="-758">
+          <caret line="469" column="8" selection-start-line="469" selection-start-column="8" selection-end-line="469" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="87" column="8" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Style.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2088">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/xlwt/Formatting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-991083293/_sqlite3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="297" column="8" selection-start-line="297" selection-start-column="8" selection-end-line="297" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plt_report/plt_test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/check-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/str_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pandas-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9198">
+          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecom/makeExcel/readXls.py">
+    <entry file="file://$PROJECT_DIR$/test/name.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-991083293/_sqlite3.py" />
-    <entry file="file://$PROJECT_DIR$/test/pandas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="936">
+          <caret line="52" column="2" selection-start-line="52" selection-end-line="52" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hello.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="18">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
@@ -599,81 +626,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+    <entry file="file://$PROJECT_DIR$/ecom/ClarAll/pandas-test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pandas.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="304" column="2" selection-start-line="304" selection-start-column="2" selection-end-line="306" selection-end-column="19" />
+        <state relative-caret-position="540">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/str_test.py">
+    <entry file="file://$PROJECT_DIR$/ecom/makeExcel/readXls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/pandas/core/series.py">
+    <entry file="file://$PROJECT_DIR$/ecom/makeExcel/writeExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="598" column="43" selection-start-line="598" selection-start-column="35" selection-end-line="598" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/pandas/core/strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1784" column="29" selection-start-line="1784" selection-start-column="23" selection-end-line="1784" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/check-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CalrAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecom/DbControl/InsertData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/create_table_ecom_base.sql">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="OdpsQlEditor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-end-line="57" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="OdpsQlGraph" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pandas-test.py">
+    <entry file="file://$PROJECT_DIR$/db/create_table_ecom_plt_monthly.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="328">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CalrAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="909" selection-start-line="909" selection-end-line="918" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CalrAllByPandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="38" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/ecom/ClarAll/CheckEcomPlt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="90">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
