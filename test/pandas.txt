@@ -8,3 +8,24 @@
 # print(df.isnull())
 # 查看列名称
 # print(df.columns)
+
+# convert str to int, the method only allow all num str.
+# df['awb_no'].astype("int")
+# show data types
+# print(df.dtypes)
+# show the DataFrame column
+print(df.columns)
+
+# df.to_excel("/Users/apple/Documents/dhl_ecom_data/test.xlsx", sheet_name='hello')
+# df.to_csv("hello.csv")
+
+# sort by desc
+# all_nogzd.sort_values(by='shacct_no', ascending=False)
+# print(eship.sort_values(by='shacct_no', ascending=False))
+
+# non_doc = df.loc[(df['cleaned_product_code'] == '3') | (df['cleaned_product_code'] == ) |
+#                        (df['cleaned_product_code'] == '8') | (df['cleaned_product_code'] == 'E') |
+#                        (df['cleaned_product_code'] == 'F') | (df['cleaned_product_code'] == 'H') |
+#                        (df['cleaned_product_code'] == 'J') | (df['cleaned_product_code'] == 'M') |
+#                        (df['cleaned_product_code'] == 'P') | (df['cleaned_product_code'] == 'Q') |
+#                        (df['cleaned_product_code'] == 'V') | (df['cleaned_product_code'] == 'Y')]
