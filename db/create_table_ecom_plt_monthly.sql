@@ -1,5 +1,5 @@
 CREATE TABLE ecom_plt_monthly(
-		e_month INT ,
+		e_month INT,
     e_total REAL,
 		pre_acc REAL,
 		imp_acc REAL,
