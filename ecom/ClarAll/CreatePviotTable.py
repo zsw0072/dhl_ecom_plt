@@ -40,9 +40,9 @@ def createPivotTable(month):
 
     # print(table)
     # to repeat all label used the to_csv method
-    xmlAndPlt_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/ESHIP and XMLPI PLT account Report '+month+'.csv')
-    preAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/Pre PLT account Report '+month+'.csv')
-    impAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/IMP PLT account Report '+month+'.csv')
+    xmlAndPlt_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/ESHIP and XMLPI PLT Report '+month+'.csv')
+    preAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/Pre PLT Report '+month+'.csv')
+    impAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/IMP PLT Report '+month+'.csv')
 
 
 
