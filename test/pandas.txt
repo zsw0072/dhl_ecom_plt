@@ -1,18 +1,28 @@
 # 维度查看：
 # print(df.shape)
+
 # 数据表基本信息（维度、列名称、数据格式、所占空间等）
 # print(df.info())
+
 # 每一列数据的格式
 # print(df.dtypes)
+
 # 空值
 # print(df.isnull())
+
 # 查看列名称
 # print(df.columns)
+# df.head(20)
+
+# 最后5个
+# df.tail()
 
 # convert str to int, the method only allow all num str.
 # df['awb_no'].astype("int")
+
 # show data types
 # print(df.dtypes)
+
 # show the DataFrame column
 print(df.columns)
 
@@ -29,3 +39,13 @@ print(df.columns)
 #                        (df['cleaned_product_code'] == 'J') | (df['cleaned_product_code'] == 'M') |
 #                        (df['cleaned_product_code'] == 'P') | (df['cleaned_product_code'] == 'Q') |
 #                        (df['cleaned_product_code'] == 'V') | (df['cleaned_product_code'] == 'Y')]
+
+# create pivot table by shacct_no, svc, company, eclientapp, PLT
+table = pd.pivot_table(result, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
+                       values=['awb_no'],
+                       aggfunc=[np.count_nonzero])
+
+# pviot table query
+# gzw = table.query('orig_fclty == ["GZW"]')
+# print(gzw)
+
