@@ -21,28 +21,21 @@ def createPivotTable(month):
     preAccResult = xmlAndPltResult.loc[xmlAndPltResult['shacct_no'].str.startswith('60')]
     impAccResult = xmlAndPltResult.loc[(xmlAndPltResult['shacct_no'].str.startswith('95')) | (xmlAndPltResult['shacct_no'].str.startswith('96'))]
 
-    # create pivot table by shacct_no, svc, company, eclientapp, PLT
-    xmlAndPlt_table = pd.pivot_table(xmlAndPltResult, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
-                           values=['awb_no'],
-                           aggfunc=[np.count_nonzero])
+    # Group by account
+    xmlAndPlt_table = xmlAndPltResult.groupby(['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'])['awb_no'].count()
     print(xmlAndPlt_table)
 
-    preAcc_table = pd.pivot_table(preAccResult, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
-                           values=['awb_no'],
-                           aggfunc=[np.count_nonzero])
+    preAcc_table = preAccResult.groupby(['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'])['awb_no'].count()
     print(preAcc_table)
 
-
-    impAcc_table = pd.pivot_table(impAccResult, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
-                           values=['awb_no'],
-                           aggfunc=[np.count_nonzero])
+    impAcc_table = impAccResult.groupby(['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'])['awb_no'].count()
     print(impAcc_table)
 
     # print(table)
     # to repeat all label used the to_csv method
-    xmlAndPlt_table.to_csv('../report/ESHIP and XMLPI PLT Report '+month+'.csv')
-    preAcc_table.to_csv('../report/Pre PLT Report '+month+'.csv')
-    impAcc_table.to_csv('../report/IMP PLT Report '+month+'.csv')
+    # xmlAndPlt_table.to_csv('../report/ESHIP and XMLPI PLT Report '+month+'.csv', header=True)
+    preAcc_table.to_csv('../report/Pre PLT Report '+month+'.csv', header=True)
+    impAcc_table.to_csv('../report/IMP PLT Report '+month+'.csv', header=True)
 
 
 

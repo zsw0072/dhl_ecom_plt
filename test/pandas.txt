@@ -41,9 +41,9 @@ print(df.columns)
 #                        (df['cleaned_product_code'] == 'V') | (df['cleaned_product_code'] == 'Y')]
 
 # create pivot table by shacct_no, svc, company, eclientapp, PLT
-table = pd.pivot_table(result, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
-                       values=['awb_no'],
-                       aggfunc=[np.count_nonzero])
+# xmlAndPlt_table = pd.pivot_table(xmlAndPltResult, index=['shacct_no', 'orig_fclty', 'esiteid', 'eclientApp', 'PLT'],
+#                        values=['awb_no'],
+#                        aggfunc=[np.count_nonzero])
 
 # pviot table query
 # gzw = table.query('orig_fclty == ["GZW"]')

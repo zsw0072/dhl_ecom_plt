@@ -7,5 +7,3 @@ from ecom.ClarAll.CreatePviotTable import *
 # writeExcel("201909")
 
 calrAllByPandas("201909")
-
-

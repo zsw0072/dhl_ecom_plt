@@ -1,9 +1,9 @@
 import xlrd
 import sqlite3
 
-workbook = xlrd.open_workbook("/Users/apple/Documents/dhl_ecom_data/CAO_201909ecom_base.xlsx")
+workbook = xlrd.open_workbook("../orgin/CAO_201909ecom_base.xlsx")
 sheet = workbook.sheet_by_name("Sheet1")
-conn = sqlite3.connect("/Users/apple/Documents/dhl_ecom_plt/db/dhl.db")
+conn = sqlite3.connect("../../db/dhl.db")
 c = conn.cursor()
 nrows = sheet.nrows
 for curr_row in range(nrows):
