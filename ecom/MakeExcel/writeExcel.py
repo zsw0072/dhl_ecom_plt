@@ -39,5 +39,3 @@ def writeExcel(month):
             row.write(1, res[x], style)
 
     workbook.save("ecom/report/ecom_plt_" + month + ".xls")
-
-writeExcel('201909')

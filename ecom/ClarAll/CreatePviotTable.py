@@ -39,4 +39,3 @@ def createPivotTable(month):
 
 
 
-createPivotTable('201909')
