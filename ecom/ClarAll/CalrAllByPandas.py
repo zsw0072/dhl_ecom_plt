@@ -4,7 +4,7 @@ import pandas as pd
 
 def calrAllByPandas(month):
 	# pandas load data from sqlite3。
-	conn = sqlite3.connect('db/dhl.db')
+	conn = sqlite3.connect('../../db/dhl.db')
 	sql = "SELECT awb_no,orig_fclty,shacct_no,esiteid,cSales_cd,cleaned_product_code,PLT FROM ecom_base_" + month + " \
 		   WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE 'C%' AND shacct_no NOT LIKE '';"
 

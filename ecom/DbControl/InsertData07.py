@@ -3,7 +3,7 @@ import sqlite3
 
 workbook = xlrd.open_workbook("/Users/apple/Documents/dhl_ecom_data/CAO_201907ecom_base.xlsx")
 sheet = workbook.sheet_by_name("Sheet1")
-conn = sqlite3.connect("/Users/apple/Documents/dhl_ecom_plt/db/dhl.db")
+conn = sqlite3.connect("../../db/dhl.db")
 c = conn.cursor()
 nrows = sheet.nrows
 for curr_row in range(nrows):

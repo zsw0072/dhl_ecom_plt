@@ -4,7 +4,7 @@ import sqlite3
 
 
 def createPivotTable(month):
-    conn = sqlite3.connect('/Users/apple/Documents/dhl_ecom_plt/db/dhl.db')
+    conn = sqlite3.connect('../../db/dhl.db')
 
     # expect FOC CASH account and select non-doc
     sql = "SELECT awb_no,orig_fclty,shacct_no,eShipperCompany,esiteid,eclientApp,cleaned_product_code,PLT FROM ecom_base_" + month + " \
@@ -40,9 +40,9 @@ def createPivotTable(month):
 
     # print(table)
     # to repeat all label used the to_csv method
-    xmlAndPlt_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/ESHIP and XMLPI PLT Report '+month+'.csv')
-    preAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/Pre PLT Report '+month+'.csv')
-    impAcc_table.to_csv('/Users/apple/Documents/dhl_ecom_plt/ecom/report/IMP PLT Report '+month+'.csv')
+    xmlAndPlt_table.to_csv('../report/ESHIP and XMLPI PLT Report '+month+'.csv')
+    preAcc_table.to_csv('../report/Pre PLT Report '+month+'.csv')
+    impAcc_table.to_csv('../report/IMP PLT Report '+month+'.csv')
 
 
 

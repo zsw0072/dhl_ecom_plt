@@ -2,7 +2,7 @@ import sqlite3
 
 
 def calrAll(month):
-    conn = sqlite3.connect("db/dhl.db")
+    conn = sqlite3.connect("../../db/dhl.db")
     c = conn.cursor()
     print("-----------------------------")
 
