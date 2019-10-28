@@ -38,4 +38,4 @@ def writeExcel(month):
             row.write(0, list[x])
             row.write(1, res[x], style)
 
-    workbook.save("ecom/report/ecom_plt_" + month + ".xls")
+    workbook.save("report/ecom_plt_" + month + ".xls")
