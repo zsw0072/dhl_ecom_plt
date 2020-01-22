@@ -4,9 +4,9 @@ import pandas as pd
 
 def calrAllByPandas(month):
 	# pandas load data from sqlite3。
-	conn = sqlite3.connect('../../db/dhl.db')
+	conn = sqlite3.connect('C:\\Users\\admin\\Desktop\\dhl_ecom_plt\\db\\dhl.db')
 	sql = "SELECT awb_no,orig_fclty,shacct_no,esiteid,cSales_cd,cleaned_product_code,PLT FROM ecom_base_" + month + " \
-		   WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE 'C%' AND shacct_no NOT LIKE '';"
+		   WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '';"
 
 	# return DataFrame object
 	df = pd.read_sql(sql, conn)
@@ -135,7 +135,7 @@ def calrAllByPandas(month):
 
 	#####################
 	# ESHIP GZA+GZB+GZC+GDA+GZD+GZF PLT percentage
-	james = eship.loc[eship['cSales_cd'].isin(['GZA', 'GZB', 'GZC', 'GDA', 'GZD', 'GZF'])]
+	james = eship.loc[eship['cSales_cd'].isin(['GZA', 'GZB', 'GZC', 'GZG', 'GDA', 'GZD', 'GZF'])]
 	james_plt = james.loc[james['PLT'] == 'Y'].count().tolist()[0]
 	james_plt = james_plt / james.count().tolist()[0]
 	print("郭靖 PLT: ", james_plt)
@@ -206,11 +206,17 @@ def calrAllByPandas(month):
 	gzb_plt = gzb_plt / gzb.count().tolist()[0]
 	print("GZB PLT: ", gzb_plt)
 
-	# ESHIP GZC+GDA PLT percentage
-	gzc_gda = eship.loc[eship['cSales_cd'].isin(['GZC', 'GDA'])]
-	gzc_gda_plt = gzc_gda.loc[gzc_gda['PLT'] == 'Y'].count().tolist()[0]
-	gzc_gda_plt = gzc_gda_plt / gzc_gda.count().tolist()[0]
-	print("GZC+GDA PLT: ", gzc_gda_plt)
+	# ESHIP GZC PLT percentage
+	gzc = eship.loc[eship['cSales_cd'].isin(['GZC'])]
+	gzc_plt = gzc.loc[gzc['PLT'] == 'Y'].count().tolist()[0]
+	gzc_plt = gzc_plt / gzc.count().tolist()[0]
+	print("GZC PLT: ", gzc_plt)
+
+	# ESHIP GZG+GDA PLT percentage
+	gzg_gda = eship.loc[eship['cSales_cd'].isin(['GZG', 'GDA'])]
+	gzg_gda_plt = gzg_gda.loc[gzg_gda['PLT'] == 'Y'].count().tolist()[0]
+	gzg_gda_plt = gzg_gda_plt / gzg_gda.count().tolist()[0]
+	print("GZG+GDA PLT: ", gzg_gda_plt)
 
 	# ESHIP GZD PLT percentage
 	gzd = eship.loc[eship['cSales_cd'].isin(['GZD'])]
@@ -497,12 +503,12 @@ def calrAllByPandas(month):
 	print("GWT+GZU+GET PLT: ", haiyan_plt)
 
 	conn.execute(
-		"INSERT INTO ecom_plt_monthly VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, \
+		"INSERT INTO ecom_plt_monthly VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, \
 		?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
 		(month, plt, pre_plt, imp_plt, all_plt_nogzd, pre_plt_nogzd, imp_plt_nogzd, ops_plt,
 		 gzw_plt, gzh_plt, gzp_plt, gze_plt, gzs_plt, fon_plt, fos_plt, zhq_plt, nng_plt, zha_plt, hke_plt,
 		 james_plt, austin_plt, ivy_plt, louis_plt, elaine_plt, colin_plt, yaoqi_plt, elizabeth_plt, hellen_plt,
-		 gza_plt, gzb_plt, gzc_gda_plt, gzd_plt, gzf_plt, gwc_plt, gwe_plt, gwf_plt, gwg_plt, gwh_plt,
+		 gza_plt, gzb_plt, gzc_plt, gzg_gda_plt, gzd_plt, gzf_plt, gwc_plt, gwe_plt, gwf_plt, gwg_plt, gwh_plt,
 		 geb_plt, gec_plt, ged_plt, gee_plt, gef_plt, gpo_plt, gpb_plt, gpc_plt, gpd_plt, gpe_plt, ghb_plt,
 		 ghc_plt, ghd_plt, ghe_plt, fne_plt, fnf_plt, fnh_plt, fnk_plt, zqc_plt, nnb_plt, fsa_plt, fsb_plt,
 		 fsc_plt, fsd_plt, hac_plt, zhc_plt, geo_plt, gen_gwn_plt, gwo_plt, gwq_plt, gzv_gws_plt, gzy_plt,

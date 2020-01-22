@@ -1,4 +1,4 @@
-CREATE TABLE ecom_base_201909(
+CREATE TABLE ecom_base_201912(
     sd_dtm  CHAR(30),
     awb_no  CHAR(20),
     orig_ctry   CHAR(10),

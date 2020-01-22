@@ -49,3 +49,5 @@ print(df.columns)
 # gzw = table.query('orig_fclty == ["GZW"]')
 # print(gzw)
 
+# 读取txt文件用|分隔符
+# data = pd.read_csv('20180201.txt',sep = '|',dtype = 'str')
