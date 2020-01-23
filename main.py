@@ -13,4 +13,4 @@ from ecom.DbControl.InsertData import *
 # writeExcel("201912")
 
 # 3....计算60,95/96账号PLT使用情况并分别写出文件
-groupAllPLT('201912')
+groupAllPLT('201910')
