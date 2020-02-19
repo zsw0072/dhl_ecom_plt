@@ -1,4 +1,4 @@
-CREATE TABLE ecom_base_201912(
+CREATE TABLE ecom_test(
     sd_dtm  CHAR(30),
     awb_no  CHAR(20),
     orig_ctry   CHAR(10),
@@ -37,7 +37,7 @@ CREATE TABLE ecom_base_201912(
     mAcctatt    CHAR(10),
     mchannel    CHAR(20),
     marea   CHAR(10),
-    mcluster    CHAR(10),
+    mcluster CHAR(10),
     mroute_name CHAR(10),
     mghost  CHAR(10),
     meCOM   CHAR(10),
