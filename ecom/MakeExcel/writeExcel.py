@@ -13,7 +13,7 @@ list = ['All PLT', '2019', '60', '96', '2019(除领添)', '60(除领添)', '96(�
 def writeExcel(month):
     conn = sqlite3.connect('db/dhl.db')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM ecom_plt_monthly where e_month =" + month)
+    cursor.execute("SELECT * FROM plt_report where e_month =" + month)
 
     # 创建 workbook 对象
     workbook = xlwt.Workbook()
@@ -38,4 +38,4 @@ def writeExcel(month):
             row.write(0, list[x])
             row.write(1, res[x], style)
 
-    workbook.save("report/ecom_plt_" + month + ".xls")
+    workbook.save("ecom/Report/ecom_plt_" + month + ".xls")
