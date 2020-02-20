@@ -1,4 +1,4 @@
-CREATE TABLE ecom_plt_monthly(
+CREATE TABLE plt_report(
 		e_month INT,
     e_total REAL,
 		pre_acc REAL,

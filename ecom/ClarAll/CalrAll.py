@@ -2,10 +2,10 @@ import sqlite3
 import pandas as pd
 
 
-def calrAllByPandas(month):
+def calrAll(month):
 	# pandas load data from sqlite3。
-	conn = sqlite3.connect('C:\\Users\\admin\\Desktop\\dhl_ecom_plt\\db\\dhl.db')
-	sql = "SELECT awb_no,orig_fclty,shacct_no,esiteid,cSales_cd,cleaned_product_code,PLT FROM ecom_base_" + month + " \
+	conn = sqlite3.connect('db/dhl.db')
+	sql = "SELECT awb_no,orig_fclty,shacct_no,esiteid,cSales_cd,cleaned_product_code,PLT FROM shipment_" + month + " \
 		   WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '';"
 
 	# return DataFrame object
@@ -503,7 +503,7 @@ def calrAllByPandas(month):
 	print("GWT+GZU+GET PLT: ", haiyan_plt)
 
 	conn.execute(
-		"INSERT INTO ecom_plt_monthly VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, \
+		"INSERT INTO plt_report VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, \
 		?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
 		(month, plt, pre_plt, imp_plt, all_plt_nogzd, pre_plt_nogzd, imp_plt_nogzd, ops_plt,
 		 gzw_plt, gzh_plt, gzp_plt, gze_plt, gzs_plt, fon_plt, fos_plt, zhq_plt, nng_plt, zha_plt, hke_plt,
@@ -513,6 +513,7 @@ def calrAllByPandas(month):
 		 ghc_plt, ghd_plt, ghe_plt, fne_plt, fnf_plt, fnh_plt, fnk_plt, zqc_plt, nnb_plt, fsa_plt, fsb_plt,
 		 fsc_plt, fsd_plt, hac_plt, zhc_plt, geo_plt, gen_gwn_plt, gwo_plt, gwq_plt, gzv_gws_plt, gzy_plt,
 		 fnm_plt, fsy_fnn_plt, fsv_plt, gpu_plt, ghp_plt, gho_gpr_plt, moji_plt, haiyan_plt))
+
 
 	conn.commit()
 	conn.close()

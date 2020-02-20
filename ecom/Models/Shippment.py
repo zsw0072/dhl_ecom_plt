@@ -5,7 +5,7 @@ Base = declarative_base()
 
 
 class Shippment(Base):
-    __tablename__ = 'ecom_test'
+    __tablename__ = 'shipment_201912'
 
     id = Column(Integer, primary_key=True)
     sd_dtm = Column(String(30))

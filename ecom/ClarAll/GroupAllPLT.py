@@ -7,8 +7,8 @@ def groupAllPLT(month):
     conn = sqlite3.connect('db/dhl.db')
 
     # expect FOC CASH account and select non-doc
-    sql = "SELECT awb_no,orig_fclty,shacct_no,billing_acct_no,eShipperCompany,esiteid,eclientApp,cSales_cd,cleaned_product_code,PLT FROM ecom_base_" + month + " \
-           WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '' limit 500;"
+    sql = "SELECT awb_no,orig_fclty,shacct_no,billing_acct_no,eShipperCompany,esiteid,eclientApp,cSales_cd,cleaned_product_code,PLT FROM shipment_" + month + " \
+           WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '';"
 
     df = pd.read_sql(sql, conn)
     data = df.loc[(df.cleaned_product_code.isin(['3', '4', '8', 'E', 'F', 'H', 'J', 'M', 'P', 'Q', 'V', 'Y']))]
@@ -33,7 +33,6 @@ def groupAllPLT(month):
          'PLT': 'first',
          'awb_no': np.size,
          'billing_acct_no': lambda x: x.map(str).str.startswith('60').sum()})
-    print(preAccAll.shacct_no.dtypes)
     preAccAll.rename(columns={'shacct_no': '发件人账号', 'esiteid': 'ESITEID', 'PLT': '是否为PLT', 'awb_no': '总发件量',
                               'billing_acct_no': '付款账号件量'}, inplace=True)
     preAccAll = preAccAll.reset_index(drop=True)
@@ -48,7 +47,7 @@ def groupAllPLT(month):
         'ESITEID', 'PLT': '是否为PLT', 'awb_no': '总发件量'}, inplace=True)
     impAccAll = impAccAll.reset_index(drop=True)
 
-    fileName = 'report/plt Report ' + month + '.xlsx'
+    fileName = 'ecom/Report/plt Report ' + month + '.xlsx'
     writer = pd.ExcelWriter(fileName)
 
     # to repeat all label used the to_csv method
