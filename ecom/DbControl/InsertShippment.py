@@ -1,6 +1,7 @@
 from ecom.Models.Shippment import Shippment
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
+import matplotlib
 import pandas as pd
 
 

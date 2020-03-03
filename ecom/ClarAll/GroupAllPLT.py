@@ -6,9 +6,10 @@ import sqlite3
 def groupAllPLT(month):
     conn = sqlite3.connect('db/dhl.db')
 
+    sql_month = str(month).replace('_', '-')
     # expect FOC CASH account and select non-doc
     sql = "SELECT awb_no,orig_fclty,shacct_no,billing_acct_no,eShipperCompany,esiteid,eclientApp,cSales_cd,cleaned_product_code,PLT FROM shipment_" + month + " \
-           WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '';"
+           WHERE shacct_no NOT LIKE 'F%' AND shacct_no NOT LIKE '' OR sd_dtm LIKE '" + sql_month + "' ;"
 
     df = pd.read_sql(sql, conn)
     data = df.loc[(df.cleaned_product_code.isin(['3', '4', '8', 'E', 'F', 'H', 'J', 'M', 'P', 'Q', 'V', 'Y']))]
@@ -21,7 +22,7 @@ def groupAllPLT(month):
     # replace value:PEK0000009055SPS to DDHLCNESHIPC
     xmlAndPlt = xmlAndPltResult.copy()
     xmlAndPlt.loc[xmlAndPlt.esiteid == 'PEK0000009055SPS', 'esiteid'] = 'DDHLCNESHIPC'
-    xmlAndPlt['shacct_no'] = xmlAndPlt['shacct_no'].str[:8]
+    xmlAndPlt['shacct_no'] = xmlAndPlt['shacct_no'].str[:9]
     # filter the dataframe by prepay account and import account
     preAccResult = xmlAndPlt.loc[xmlAndPltResult.shacct_no.str.startswith('60')]
     impAccResult = xmlAndPlt.loc[
@@ -56,3 +57,4 @@ def groupAllPLT(month):
 
     # must be save, the data needs fresh by writer
     writer.save()
+    print('ecom plt detail 已生成 ')
